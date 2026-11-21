@@ -1,0 +1,10 @@
+# Ignore everything by default
+*
+
+# Allow these project files
+!/.gitignore
+!/search.py
+!/topics.csv
+!/queries.csv
+!/SystemsSearch.ico
+!/README.md
