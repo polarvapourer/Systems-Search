@@ -10,5 +10,6 @@ search, 10 times with meaning-based search and 8 times with combined search.
 
 ## Windows download
 
-Open the latest release and download SystemsSearch.exe under Assets.
+[Download Systems Search v1.0.0 for Windows (.exe)](https://github.com/polarvapourer/Systems-Search/releases/download/v1.0.0/SystemsSearch.exe) · [Release notes](https://github.com/polarvapourer/Systems-Search/releases/tag/v1.0.0)
+
 The first run needs an internet connection to download the search model.
