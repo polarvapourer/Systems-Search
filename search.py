@@ -38,7 +38,11 @@ else:
     print("No keyword match found.")
 
 print("\nMeaning-based search results")
-model = SentenceTransformer("sentence-transformers/multi-qa-MiniLM-L6-cos-v1")
+model = SentenceTransformer(
+    "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+    revision="b207367332321f8e44f96e224ef15bc607f4dbf0",
+    model_kwargs={"use_safetensors": True},
+)
 
 topic_texts = []
 for topic in topics:
